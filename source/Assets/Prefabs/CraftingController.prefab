@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3637632488900732495
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3637632488900732493}
+  - component: {fileID: 3637632488900732494}
+  - component: {fileID: 3637632488900732492}
+  m_Layer: 0
+  m_Name: CraftingController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3637632488900732493
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3637632488900732495}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.59, y: -2.08, z: -5.075517}
+  m_LocalScale: {x: 6, y: 6, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3637632488900732494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3637632488900732495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 703023500f7092a4b8d828c6e16aa057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CraftingSlot1: {fileID: 0}
+  CraftingSlot2: {fileID: 0}
+  gc: {fileID: 0}
+  objApple: {fileID: 1650958606864259290, guid: a7b36a15b02045747a93a962165d991c,
+    type: 3}
+  objBanana: {fileID: 1970741821334788681, guid: 8105d3e85d21b3a4182914ea1b3b755e,
+    type: 3}
+  objBlueberry: {fileID: 8340927970072472228, guid: 837249c6bbcf25c48b37aa9aefbf873f,
+    type: 3}
+  objCarrot: {fileID: 4319071157088807980, guid: d3aba69cc1fa503418c989935dc2d295,
+    type: 3}
+  objCherry: {fileID: 7945264532597369543, guid: 03cb197358ad35246a9bcbf6433800ad,
+    type: 3}
+  objWatermelon: {fileID: 9128785523901337597, guid: 8bb0699a392048f47b45b1a3279c7da4,
+    type: 3}
+  objBlueDrug: {fileID: 1213151181154131020, guid: c08b23e5d1501e94c95415b8fef203fe,
+    type: 3}
+  objGreenDrug: {fileID: 8863308627919186985, guid: afb45eef37d06b442bfb16654da1d679,
+    type: 3}
+  objRedDrug: {fileID: 3926593601991761153, guid: 62e9bf8d41b12b74fbf98eebb2c87f4d,
+    type: 3}
+  objYellowDrug: {fileID: 2039738478711345889, guid: fc4a498f8ea92744b9b31ee120fd2aa7,
+    type: 3}
+  objGlass: {fileID: 3453462835556991239, guid: 5b23a37c1ceba984f8332a726f45f36b,
+    type: 3}
+  objIron: {fileID: 2922004285159820761, guid: 6c6eadd569e16984e9442812a5e1dde0, type: 3}
+  objPlastic: {fileID: 6122362802221829120, guid: 0cbd1c7a302c35c4e8471cd29c99fa61,
+    type: 3}
+  objPill: {fileID: 8513193100786752269, guid: 8599df03e98c80a4ca34c26aeb87c076, type: 3}
+  objBluePill: {fileID: 6207560990254286909, guid: 2999d32354a25564c828bd7dfd64b9a4,
+    type: 3}
+  objGreenPill: {fileID: 6740819625197582252, guid: b3600389eb43ed041b33c2fe7d67ec4d,
+    type: 3}
+  objRedPill: {fileID: 808023100354626657, guid: 813a264c9934f1c4d9ac167368d1d651,
+    type: 3}
+  objYellowPill: {fileID: 5612379856141134599, guid: f9672b68be9a79248a5d966603f241b3,
+    type: 3}
+  objPotion: {fileID: 1771974416079602110, guid: 671ade14972d6a24ebb5d5a37c522d16,
+    type: 3}
+  objBluePotion: {fileID: 1556148422538720887, guid: a0ce668675733254ea82ad5dc1105d95,
+    type: 3}
+  objGreenPotion: {fileID: 8911268475986925371, guid: beb6f7baa9640124aa1d13d672dd36a7,
+    type: 3}
+  objRedPotion: {fileID: 2997235733589391456, guid: 2e0119de944feb34a9ed53d91d3a8962,
+    type: 3}
+  objYellowPotion: {fileID: 5276618004231353819, guid: 1342c330dda290849b55c81ee2c1a173,
+    type: 3}
+  objSyringe: {fileID: 1624806983617343831, guid: fd9b7c2aad6fabc44a9754a2b3069743,
+    type: 3}
+  objBlueSyringe: {fileID: 7301061313422844742, guid: 552774a21e50fc745ba23fc943662c6c,
+    type: 3}
+  objGreenSyringe: {fileID: 2095852191259645925, guid: 8002e2544234d2e45bb55018abb3aa5a,
+    type: 3}
+  objRedSyringe: {fileID: 1497797768736127078, guid: 47e545eed8ed1964cb699a73d1c511a4,
+    type: 3}
+  objYellowSyringe: {fileID: 809634606197739495, guid: 367dfae1deee98e4fbfda8e9d6481023,
+    type: 3}
+--- !u!212 &3637632488900732492
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3637632488900732495}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: ec6d01bc452aba647a3ceb205193717d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.28, y: 1.28}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0

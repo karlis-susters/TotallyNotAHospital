@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1268244386793086611
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1268244386793086605}
+  - component: {fileID: 1268244386793086610}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1268244386793086605
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268244386793086611}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1268244386793086610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268244386793086611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b66d945168a5ce428dee782de00a1b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Blob
+    clip: {fileID: 8300000, guid: 88ebc39283eefbd4b9ae6a2ffcc80b19, type: 3}
+    volume: 1
+    pitch: 1.33
+    source: {fileID: 0}
+  - name: Theme1
+    clip: {fileID: 8300000, guid: d19ab79a6e40f3b46b4f9facad7a1259, type: 3}
+    volume: 0.237
+    pitch: 1
+    source: {fileID: 0}
+  - name: Theme2
+    clip: {fileID: 8300000, guid: 051e066d1cd4cba41afc04487bcc419e, type: 3}
+    volume: 0.229
+    pitch: 1
+    source: {fileID: 0}
+  - name: Theme3
+    clip: {fileID: 8300000, guid: 744a324ef6384bc45a1881f9b66bd355, type: 3}
+    volume: 0.246
+    pitch: 1
+    source: {fileID: 0}
+  - name: Theme4
+    clip: {fileID: 8300000, guid: 81e6a83bba23e134d81c20d589282df6, type: 3}
+    volume: 0.195
+    pitch: 1
+    source: {fileID: 0}
+  - name: DayStart
+    clip: {fileID: 8300000, guid: 507b818beb2fb68499dcf0cfb2b07347, type: 3}
+    volume: 0.458
+    pitch: 1.33
+    source: {fileID: 0}
+  - name: ButtonClick
+    clip: {fileID: 8300000, guid: fe50449d59a4c3f4a8f42a413504490d, type: 3}
+    volume: 0.973
+    pitch: 1
+    source: {fileID: 0}
+  - name: MainMenuMusic
+    clip: {fileID: 8300000, guid: 86944d2a48f7ea447b1045a36ef41588, type: 3}
+    volume: 0.243
+    pitch: 1
+    source: {fileID: 0}
+  - name: GameLose
+    clip: {fileID: 8300000, guid: a2fe4a68b8ba6464093903ede1fa942f, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: GameWin
+    clip: {fileID: 8300000, guid: 13de1113ae7373547995b2b8f98a62fb, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: SatisfiedCustomer
+    clip: {fileID: 8300000, guid: 539fa207f7057a141bca7f41cf4454a6, type: 3}
+    volume: 0.592
+    pitch: 1.1
+    source: {fileID: 0}
+  - name: AngryCustomer
+    clip: {fileID: 8300000, guid: 367d7e3cb97647e448fe9e5a817bb77f, type: 3}
+    volume: 0.592
+    pitch: 0.77
+    source: {fileID: 0}
