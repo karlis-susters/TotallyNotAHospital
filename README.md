@@ -9,4 +9,4 @@ Rūdolfs Pikšens
 Artūrs Kovrigo
 
 
-as part of team "!(Totally engineers)"
+as part of team "!(Totally Engineers)"
